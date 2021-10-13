@@ -8,7 +8,7 @@ from rossmann.Rossmann import Rossmann
 # run python handler.py
 # make a request to the open port via terminal executed file
 # or just a exexuted cell in jupyter notebook
-# there is already a test cell in this project jupyter notebook
+# (there is already a test cell in this project's jupyter notebook)
 # ===========================
 
 # loading model
