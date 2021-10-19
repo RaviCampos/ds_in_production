@@ -3,6 +3,17 @@ import json
 import requests
 from flask import Flask, request, Response
 
+
+# ============================
+#        DEPLOY IDEIA
+# ============================
+
+# Try to put this flask backend in the same application as the handler.py 
+# on Heroku. The only adjustment will be to change the end point in the url.
+# If this works there will be no need to make a new application
+
+
+
 # constants
 TOKEN = "2044464556:AAHRDANSa-7h-0EPPmW3sY4uoEgWq7cw98s"
 # https://api.telegram.org/bot2044464556:AAHRDANSa-7h-0EPPmW3sY4uoEgWq7cw98s/getMe
