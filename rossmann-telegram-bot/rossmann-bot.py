@@ -24,7 +24,7 @@ def send_telegram_message(chat_id,text):
 
     r = requests.post(url, json={"text": text})
 
-    print(f"Status Code{r.status_code}")
+    print(f"Status Code {r.status_code}")
 
     return None
 
