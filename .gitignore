@@ -1,3 +1,4 @@
 .git
 .gitgnore
-webapp/
+/webapp
+/rossmann-telegram-bot
